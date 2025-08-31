@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/flet_gnav_bar/__init__.py
+src/flet_gnav_bar/flet_gnav_bar.py
+src/flet_gnav_bar.egg-info/PKG-INFO
+src/flet_gnav_bar.egg-info/SOURCES.txt
+src/flet_gnav_bar.egg-info/dependency_links.txt
+src/flet_gnav_bar.egg-info/requires.txt
+src/flet_gnav_bar.egg-info/top_level.txt
+src/flutter/flet_gnav_bar/CHANGELOG.md
+src/flutter/flet_gnav_bar/LICENSE
+src/flutter/flet_gnav_bar/README.md
+src/flutter/flet_gnav_bar/pubspec.lock
+src/flutter/flet_gnav_bar/pubspec.yaml
+src/flutter/flet_gnav_bar/lib/flet_gnav_bar.dart
+src/flutter/flet_gnav_bar/lib/src/create_control.dart
+src/flutter/flet_gnav_bar/lib/src/flet_gnav_bar.dart
