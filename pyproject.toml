@@ -1,7 +1,7 @@
 [project]
 name = "flet_gnav_bar"
 version = "0.0.2"
-description = "FletGnavBar control for Flet"
+description = "A Google Navigation Bar control for Flet based on Aurélien Salomon's design."
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [{ name = "Soumalya Das", email = "geniussantu1983@gmail.com" }]
