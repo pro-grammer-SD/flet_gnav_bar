@@ -1,6 +1,10 @@
-# Introduction
+# FletGNavBar 🌟
 
-## FletGNavBar 🌟
+<a href="https://forthebadge.com">
+  <img src="https://forthebadge.com/images/featured/featured-built-with-love.svg" width="150">
+</a>
+
+<img src="preview.gif" width="300">
 
 Custom **Google Navigation Bar (GNav) control** for Flet apps, built on Flutter's [`google_nav_bar`](https://pub.dev/packages/google_nav_bar) package.
 
