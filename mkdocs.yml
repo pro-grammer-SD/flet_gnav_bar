@@ -1,7 +1,56 @@
 site_name: FletGnavBar
+site_description: "Interactive documentation for FletGNavBar"
+site_author: "Soumalya Das"
 
 theme:
-  name: "material"
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: pink
+    - scheme: slate
+      primary: indigo
+      accent: pink
+  font:
+    text: "Inter"
+    code: "Fira Code"
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - instant
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
 
 plugins:
-  - mkdocstrings
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_source: true
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.highlight
+  - pymdownx.betterem
+  - pymdownx.tilde
+  - pymdownx.tasklist
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/pro-grammer-SD/flet_gnav_bar
+
+extra_css:
+  - extras/custom.css
+extra_javascript:
+  - extras/custom.js

@@ -1,0 +1,52 @@
+/* Fonts & Colors */
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f8f9fa;
+    color: #202124;
+}
+
+.md-header {
+    background-color: #282c34;
+    color: #ffffff;
+}
+
+.md-sidebar {
+    background-color: #ffffff;
+    border-right: 1px solid #e0e0e0;
+}
+
+.md-sidebar a {
+    color: #3f51b5;
+}
+
+.md-sidebar a:hover {
+    color: #ff4081;
+}
+
+.md-footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #888888;
+}
+
+/* Tabbed code blocks */
+.tabbed-set {
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    background-color: #f0f0f0;
+}
+
+/* Cards / content boxes */
+.md-content h2, .md-content h3 {
+    border-left: 4px solid #3f51b5;
+    padding-left: 0.5rem;
+}
+
+.md-content pre {
+    background-color: #1e1e1e !important;
+    color: #d4d4d4;
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+}

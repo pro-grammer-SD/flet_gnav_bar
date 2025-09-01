@@ -79,9 +79,3 @@ ft.app(target=main)
 Full documentation is available [here](https://pro-grammer-SD.github.io/flet_gnav_bar/).
 
 ---
-
-## Notes
-
-- Use `badge` property to show notifications on tabs.
-- Customize **gap, icon size, text size, and colors** per tab.
-- `selected_index` syncs with backend automatically.
