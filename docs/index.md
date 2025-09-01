@@ -11,7 +11,7 @@ Custom **Google Navigation Bar (GNav) control** for Flet apps, built on Flutter'
 [![PyPI Version](https://img.shields.io/pypi/v/flet_gnav_bar.svg)](https://pypi.org/project/flet_gnav_bar/)
 [![Flutter Package](https://img.shields.io/pub/v/google_nav_bar.svg)](https://pub.dev/packages/google_nav_bar)
 [![License](https://img.shields.io/github/license/pro-grammer-SD/flet_gnav_bar)](https://github.com/pro-grammer-SD/flet_gnav_bar/blob/main/LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/pro-grammer-SD/flet_gnav_bar/python-package.yml)](https://github.com/pro-grammer-SD/flet_gnav_bar/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/pro-grammer-SD/flet_gnav_bar/python-publish.yml)](https://github.com/pro-grammer-SD/flet_gnav_bar/actions)
 
 ---
 
