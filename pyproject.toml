@@ -4,7 +4,7 @@ version = "0.0.1"
 description = "FletGnavBar control for Flet"
 readme = "README.md"
 requires-python = ">=3.9"
-authors = [{ name = "Flet contributors", email = "you@example.com" }]
+authors = [{ name = "Soumalya Das", email = "geniussantu1983@gmail.com" }]
 dependencies = ["flet>=0.28.3"]
 
 [project.urls]
