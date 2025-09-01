@@ -1,21 +1,17 @@
 [project]
-name = "flet-gnav-bar"
-version = "0.1.0"
+name = "flet_gnav_bar"
+version = "0.0.1"
 description = "FletGnavBar control for Flet"
 readme = "README.md"
 requires-python = ">=3.9"
-authors = [
-    { name = "Flet contributors", email = "you@example.com" }
-]
-dependencies = [
-    "flet>=0.28.3",
-]
+authors = [{ name = "Flet contributors", email = "you@example.com" }]
+dependencies = ["flet>=0.28.3"]
 
 [project.urls]
-Homepage = "https://mydomain.dev"
-Documentation = "https://github.com/MyGithubAccount/flet-gnav-bar"
-Repository = "https://github.com/MyGithubAccount/flet-gnav-bar"
-Issues = "https://github.com/MyGithubAccount/flet-gnav-bar/issues"
+Homepage = "https://pro-grammer-sd.github.io/flet_gnav_bar/"
+Documentation = "https://pro-grammer-sd.github.io/flet_gnav_bar/"
+Repository = "https://github.com/pro-grammer-SD/flet_gnav_bar"
+Issues = "https://github.com/pro-grammer-SD/flet_gnav_bar/issues"
 
 [tool.setuptools.package-data]
 "flutter.flet_gnav_bar" = ["**/*"]
@@ -23,13 +19,13 @@ Issues = "https://github.com/MyGithubAccount/flet-gnav-bar/issues"
 [tool.uv]
 dev-dependencies = [
     "flet[all]==0.28.3",
-    "mkdocs", 
+    "mkdocs",
     "mkdocs-material",
-    "mkdocstrings[python]"
+    "mkdocstrings[python]",
 ]
 
 [tool.poetry.group.dev.dependencies]
-flet = {extras = ["all"], version = "0.28.3"}
+flet = { extras = ["all"], version = "0.28.3" }
 mkdocs = "*"
 mkdocstrings = { extras = ["python"], version = "*" }
 mkdocs-material = "*"
