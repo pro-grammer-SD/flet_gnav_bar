@@ -1,6 +1,6 @@
 # FletGNavBar 🌟
 
-<a href="https://forthebadge.com">
+<a href="https://github.com/pro-grammer-SD/flet_gnav_bar">
   <img src="https://forthebadge.com/images/featured/featured-built-with-love.svg" width="150">
 </a>
 
