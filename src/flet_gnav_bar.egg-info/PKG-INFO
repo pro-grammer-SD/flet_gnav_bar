@@ -1,50 +1,100 @@
 Metadata-Version: 2.4
-Name: flet-gnav-bar
-Version: 0.1.0
-Summary: FletGnavBar control for Flet
-Author-email: Flet contributors <you@example.com>
-Project-URL: Homepage, https://mydomain.dev
-Project-URL: Documentation, https://github.com/MyGithubAccount/flet-gnav-bar
-Project-URL: Repository, https://github.com/MyGithubAccount/flet-gnav-bar
-Project-URL: Issues, https://github.com/MyGithubAccount/flet-gnav-bar/issues
+Name: flet_gnav_bar
+Version: 0.0.2
+Summary: A Google Navigation Bar control for Flet based on Aurélien Salomon's design.
+Author-email: Soumalya Das <geniussantu1983@gmail.com>
+Project-URL: Homepage, https://pro-grammer-sd.github.io/flet_gnav_bar/
+Project-URL: Documentation, https://pro-grammer-sd.github.io/flet_gnav_bar/
+Project-URL: Repository, https://github.com/pro-grammer-SD/flet_gnav_bar
+Project-URL: Issues, https://github.com/pro-grammer-SD/flet_gnav_bar/issues
 Requires-Python: >=3.9
 Description-Content-Type: text/markdown
 Requires-Dist: flet>=0.28.3
 
-# flet-gnav-bar
-FletGnavBar control for Flet
+# FletGNavBar 🌟
+
+<a href="https://github.com/pro-grammer-SD/flet_gnav_bar">
+  <img src="https://forthebadge.com/images/featured/featured-built-with-love.svg" width="150">
+</a>
+
+<img src="preview.gif" width="300">
+
+Custom **Google Navigation Bar (GNav) control** for Flet apps, built on Flutter's [`google_nav_bar`](https://pub.dev/packages/google_nav_bar) package.
+
+[![PyPI Version](https://img.shields.io/pypi/v/flet_gnav_bar.svg)](https://pypi.org/project/flet_gnav_bar/)
+[![Flutter Package](https://img.shields.io/pub/v/google_nav_bar.svg)](https://pub.dev/packages/google_nav_bar)
+[![License](https://img.shields.io/github/license/pro-grammer-SD/flet_gnav_bar)](https://github.com/pro-grammer-SD/flet_gnav_bar/blob/main/LICENSE)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/pro-grammer-SD/flet_gnav_bar/python-publish.yml)](https://github.com/pro-grammer-SD/flet_gnav_bar/actions)
+
+---
+
+## Features
+
+- Fully compatible with **Flet**.
+- Supports **tabs with icons, labels, and optional badges**.
+- Customizable **colors, active/inactive states, ripple, and hover effects**.
+- Works on **desktop, web, and mobile** targets.
+
+---
 
 ## Installation
 
-Add dependency to `pyproject.toml` of your Flet app:
+### Git dependency
 
-* **Git dependency**
+Add to your `pyproject.toml`:
 
-Link to git repository:
-
-```
+```toml
 dependencies = [
-  "flet-gnav-bar @ git+https://github.com/MyGithubAccount/flet-gnav-bar",
+  "flet_gnav_bar @ git+https://github.com/pro-grammer-SD/flet_gnav_bar",
   "flet>=0.28.3",
 ]
 ```
 
-* **PyPi dependency**  
+### PyPI dependency
 
-If the package is published on pypi.org:
+If published on PyPI:
 
-```
+```toml
 dependencies = [
-  "flet-gnav-bar",
+  "flet_gnav_bar",
   "flet>=0.28.3",
 ]
 ```
 
 Build your app:
-```
+
+```bash
 flet build macos -v
 ```
 
+---
+
+## Example Usage
+
+```python
+import flet as ft
+from flet_gnav_bar import FletGNavBar, FletGNavBarButton
+
+def main(page: ft.Page):
+    gnav = FletGNavBar(
+        selected_index=0,
+        tabs=[
+            FletGNavBarButton(name="Home", icon_name="home", color="#2FB14F", badge="5"),
+            FletGNavBarButton(name="Search", icon_name="search", color="#118DA3"),
+            FletGNavBarButton(name="Profile", icon_name="user", color="#E6E21F", badge="!")
+        ]
+    )
+
+    gnav.on_change = lambda _: print("Selected index:", gnav.selected_index)
+    page.add(gnav)
+
+ft.app(target=main)
+```
+
+---
+
 ## Documentation
 
-[Link to documentation](https://MyGithubAccount.github.io/flet-gnav-bar/)
+Full documentation is available [here](https://pro-grammer-SD.github.io/flet_gnav_bar/).
+
+---

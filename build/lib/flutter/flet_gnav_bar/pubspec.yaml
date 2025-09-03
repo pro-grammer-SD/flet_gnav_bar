@@ -1,14 +1,15 @@
 name: flet_gnav_bar
 description: Flet FletGnavBar control
-repository: https://github.com/MyGithubAccount/flet-gnav-bar/src/flutter/flet_gnav_bar
+repository: https://github.com/pro-grammer-SD/flet_gnav_bar/src/flutter/flet_gnav_bar
 version: 0.1.0
-homepage: https://github.com/MyGithubAccount/flet-gnav-bar
+homepage: https://github.com/pro-grammer-SD/flet_gnav_bar
 
 environment:
-  sdk: '>=3.3.0 <4.0.0'
+  sdk: ">=3.3.0 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
+  badges: ^3.1.2
   flet: 0.28.3
   flutter:
     sdk: flutter
@@ -19,4 +20,3 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
-  
